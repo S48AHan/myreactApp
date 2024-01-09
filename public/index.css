@@ -1,0 +1,18 @@
+/* body{
+    background-color: rgb(104, 209, 174);
+} */
+
+.icons{
+    padding: 10px 10px;
+    font-size: 3rem;
+    color: red;
+}
+Button{
+    margin: auto;
+    align-items: center;
+    
+}
+
+.my_div{
+    background-color: aquamarine;
+}
