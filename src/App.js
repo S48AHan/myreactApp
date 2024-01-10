@@ -183,7 +183,7 @@ import React from "react";
 
 ///DataFetching using Use Effect
 
-import DataFetch from "./components/Hooks/useEffect/DataFetch";
+import DataFetch from "./components/Hooks/CustomHooks/DataFetch";
 
 export default function App() {
   return (
