@@ -183,12 +183,32 @@ import React from "react";
 
 ///DataFetching using Use Effect
 
-import DataFetch from "./components/Hooks/CustomHooks/DataFetch";
+// import DataFetch from "./components/Hooks/CustomHooks/DataFetch";
 
-export default function App() {
-  return (
-    <div>
-      <DataFetch />
-    </div>
-  );
-}
+// export default function App() {
+//   return (
+//     <div>
+//       <DataFetch />
+//     </div>
+//   );
+// }
+
+/// Display Notification using react-toastify
+// import { ToastContainer, toast } from "react-toastify";
+// import "react-toastify/dist/ReactToastify.css";
+
+// export default function App() {
+//   // const notify = () => toast("Hi Dude!");
+//   const handleToast = () => {
+//     toast("Hi Dude!");
+//   };
+//   return (
+//     <div>
+//       <h1 style={{ textAlign: "center" }}>New Todo App</h1>
+//       <div style={{ textAlign: "center" }}>
+//         <button onClick={handleToast}>Add new todo</button>
+//       </div>
+//       <ToastContainer />
+//     </div>
+//   );
+// }
