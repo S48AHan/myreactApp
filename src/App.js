@@ -212,3 +212,14 @@ import React from "react";
 //     </div>
 //   );
 // }
+
+////Dynamic Styling
+import DynamicStyle from "./components/Dynamic Styling/DynamicStyle";
+
+export default function App() {
+  return (
+    <div>
+      <DynamicStyle />
+    </div>
+  );
+}
