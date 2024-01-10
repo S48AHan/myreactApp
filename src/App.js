@@ -1,5 +1,6 @@
 import React from "react";
 
+
 //import ReactBootstarp from "./components/ReactBootstrap/ReactBootstarp";
 // import Card1 from "./components/Card1";
 // import Card2 from "./components/Card2";
@@ -196,30 +197,33 @@ import React from "react";
 /// Display Notification using react-toastify
 // import { ToastContainer, toast } from "react-toastify";
 // import "react-toastify/dist/ReactToastify.css";
-
-// export default function App() {
-//   // const notify = () => toast("Hi Dude!");
-//   const handleToast = () => {
-//     toast("Hi Dude!");
-//   };
-//   return (
-//     <div>
-//       <h1 style={{ textAlign: "center" }}>New Todo App</h1>
-//       <div style={{ textAlign: "center" }}>
-//         <button onClick={handleToast}>Add new todo</button>
-//       </div>
-//       <ToastContainer />
-//     </div>
-//   );
-// }
-
-////Dynamic Styling
-import DynamicStyle from "./components/Dynamic Styling/DynamicStyle";
+import  toast,{ Toaster } from "react-hot-toast";
 
 export default function App() {
+   const notify = () => toast("Hi Nubu!");
+  // const handleToast = () => {
+  //   toast("Hi Dude!");
+  // };
   return (
     <div>
-      <DynamicStyle />
+      <h1 style={{ textAlign: "center" }}>New Todo App</h1>
+      {/* <div style={{ textAlign: "center" }}>
+        <button onClick={handleToast}>Add new todo</button>
+      </div>
+      <ToastContainer /> */}
+      <button onClick={notify}>Make me a toast</button>
+      <Toaster />
     </div>
   );
 }
+
+////Dynamic Styling
+// import DynamicStyle from "./components/Dynamic Styling/DynamicStyle";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <DynamicStyle />
+//     </div>
+//   );
+// }
