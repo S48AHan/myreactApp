@@ -227,12 +227,26 @@ import React from "react";
 //   );
 // }
 
-import Table from "./components/Table/Table";
+/// Fragments
+// import Table from "./components/Table/Table";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <Table />
+//     </div>
+//   );
+// }
+
+///Proptypes - check data types of props
+//userName - string
+// recomended for big projects
+import Users from "./components/PropTypes/Users";
 
 export default function App() {
   return (
     <div>
-      <Table />
+      <Users />
     </div>
   );
 }
