@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 import "../../App.css";
 function DynamicStyle() {
   const [error, setError] = useState(false);
@@ -16,7 +18,13 @@ function DynamicStyle() {
     } else {
       setValidText(true);
     }
-  }, [inputText]);
+
+    if (!error) {
+      toast("White Theme");
+    } else {
+      toast.dark("Dark Theme");
+    }
+  }, [inputText, error]);
 
   const handleInput = (e) => {
     // console.log("useState");
@@ -53,6 +61,7 @@ function DynamicStyle() {
         ></input>
       </div>
       <div style={{ textAlign: "center" }}>{inputText}</div>
+      <ToastContainer />
     </div>
   );
 }
