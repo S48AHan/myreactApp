@@ -241,12 +241,34 @@ import React from "react";
 ///Proptypes - check data types of props
 //userName - string
 // recomended for big projects
-import Users from "./components/PropTypes/Users";
+// import Users from "./components/PropTypes/Users";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <Users />
+//     </div>
+//   );
+// }
+
+///UseRef
+// import UserForm from "./components/Hooks/useRef/UserForm";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <UserForm />
+//     </div>
+//   );
+// }
+
+///UseReducer
+import UserReducer from "./components/Hooks/UseReducer/UseReducer";
 
 export default function App() {
   return (
     <div>
-      <Users />
+      <UserReducer />
     </div>
   );
 }
