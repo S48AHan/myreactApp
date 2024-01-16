@@ -263,12 +263,23 @@ import React from "react";
 // }
 
 ///UseReducer
-import UserReducer from "./components/Hooks/UseReducer/UseReducer";
+// import UserReducer from "./components/Hooks/UseReducer/UseReducer";
+
+// export default function App() {
+//   return (
+//     <div>
+//       <UserReducer />
+//     </div>
+//   );
+// }
+
+////Prop  Drilling
+import Component1 from "./components/PROP_DRILLING/Component1";
 
 export default function App() {
   return (
     <div>
-      <UserReducer />
+      <Component1 />
     </div>
   );
 }
